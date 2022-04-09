@@ -1,0 +1,5 @@
+venv
+db.sqlite3
+mysite/__pycache__/
+nyc/__pycache__/
+nyc/migrations/__pycache__/
