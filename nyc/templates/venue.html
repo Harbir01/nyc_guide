@@ -1,3 +1,27 @@
-<h1>{{ venue | title  }}</h1>
+<h1>{{ borough | title }} - {{ activity | title }}</h1>
+<body>
+    <h3>Description - {{ venues | title }}
+    </h3> 
+    <p style="width:50%">
+    {{ venue }}
+    </p>
+    
+    {% if venues == 'brighton beach' %}
+    <p><img 
+        src="brighton_beach-brooklyn.jpg"
+        width="300"
+        height="300"
+        alt="brighton beach photo">
+    </p>
+    <br>
+    {% endif %}
 
-<p>{{venueDesc}}</p>
+<p> 
+<b>Click the button below to return Home!</b>
+</p>
+
+<form action = "{% url 'city' %}">
+    <input type = "submit" value = "Home">
+</form>
+
+</body>

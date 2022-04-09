@@ -1,4 +1,4 @@
-from re import T
+import re
 from django.shortcuts import render
 from django.views import View
 
@@ -15,8 +15,9 @@ class BoroughView(View):
         return render(
             request=request,
             template_name='borough.html',
-            context={'borough': borough, 'activities': boroughs[borough].keys()},
+            context={'borough': borough, 'activities': boroughs[borough].keys()}
         )
+        
         
 
 
@@ -24,8 +25,8 @@ class ActivityView(View):
     def get(self, request, borough, activity):
         return render(
             request=request,
-            template_name='activites.html',
-            context={'borough': borough, 'activity':activity, 'activities': list(boroughs[borough][activity].keys())}
+            template_name='activities.html',
+            context={'borough': borough, 'activity': activity, 'activities': list(boroughs[borough][activity].keys())}
         )
 
 

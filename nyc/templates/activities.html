@@ -3,7 +3,7 @@
     {% for venue in activities %}
     <li>
         <a href="{% url 'venue' borough activity venue %}"
-        >{{ venue | title }}</a
+        >{{ venue | title }}<p></a
         >
     </li>
     {% endfor %}
