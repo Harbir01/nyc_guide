@@ -6,7 +6,7 @@
 
 On this website, you will find a New York City Tour Guide. We have listed activites and venues for each of the 5 boroughs. Activites include beaches, restaurants, airports, etc. There are brief descriptions describing the acticites of your interest. If you ever find yourself lost, you can alwasy hit the home button and you will be redirected to the main page !!!
 
-#### How to create a virtual enviorment
+### How to create a virtual enviorment
 
 1) Create a folder – NYC-Guide Project (or any name you choose)
 2) In the VS Code terminal cd into the new created folder, and clone the project – git clone https://github.com/Taramay21/nyc-guide.git
