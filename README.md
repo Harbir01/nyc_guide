@@ -1,35 +1,8 @@
 # New York City Guide - Django Project
 
-## To start building the project:
+## Contributers: Tara May GitHub: @TaraMay21 , Harbir Parmar Github: @Harbir01
 
-### 1. Create a virtual environment
+### Project Description 
 
-At the root folder of the repository run:
-```
-python3 -m venv venv
-```
-Make sure to call your virtual environment "venv"
+On this website, you will find a New York City Tour Guide. We have listed activites and venues for each of the 5 boroughs. Activites include beaches, restaurants, airports, etc. There are brief descriptions describing the acticites of your interest. If you ever find yourself lost, you can alwasy hit the home button and you will be redirected to the main page !!!
 
-### 2. Run virtual environment
-#### On Windows:
-Windows Powershell users:
-```
-venv\Scripts\activate.bat
-```
-Bash users:
-```
-source venv/Scripts/activate
-```
-#### On Unix or MacOS:
-```
-source venv/bin/activate
-```
-### 3. Install dependencies
-```
-pip install -r requirements.txt
-```
-### 4. Run Django
-```
-python manage.py runserver
-```
-And go to `http://localhost:8000`
