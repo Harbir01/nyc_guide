@@ -9,7 +9,7 @@ On this website, you will find a New York City Tour Guide. We have listed activi
 ### How to create a virtual enviorment
 
 1) Create a folder – NYC-Guide Project (or any name you choose)
-2) In the VS Code terminal cd into the new created folder, and clone the project – git clone https://github.com/Taramay21/nyc-guide.git
+2) In the VS Code terminal cd into the new created folder, and clone the project – git clone https://github.com/Harbir01/nyc_guide.git
 3) cd into folder nyc-guide
 4) Run python -m venv venv or python -m venv venv (this creates the virtual environment)
 5) To activate your environment –
@@ -17,5 +17,5 @@ On this website, you will find a New York City Tour Guide. We have listed activi
   For Mac - source venv/bin/activate
 6) Return to the main folder nyc-guide (if necessary) by cd ..
 7) Run pip install django (to install Django)
-8) Start the virtual server – python manage.py startserver (or python3 manage.py startserver)
+8) Start the virtual server – python manage.py startserver (or python3 manage.py runserver)
 9) In the browser of your choice, type for the url , `localhost:8000', and you shold be good to start your tour of NYC!
